@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishan Jethloja - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">KJ</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="typing-text">Hi, I'm <span class="highlight">KISHAN</span></h1>
+                <h2 class="typing-subtext">
+                    Computer Engineering Student</h2>
+                <p class="hero-description">Passionate about tech and building smart, scalable solutions.</p>
+                <div class="hero-buttons">
+                    <a href="resume.pdf" class="btn primary-btn" download>
+                        <i class="fas fa-file-download"></i> Resume
+                    </a>
+                    <a href="#contact" class="btn secondary-btn">
+                        <i class="fas fa-paper-plane"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-snippet">
+                    <pre><code class="language-javascript">
+function welcome() {
+    console.log("Welcome to my portfolio!");
+    return {
+        skills: ["C++", "Python", "Java", "JavaScript"],
+        interests: ["App Development", "Data Structures", Web Development"]
+    };
+}
+                    </code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hi, I'm Kishan Jethloja</h3>
+                    <p>I'm a second-year Computer Science student at Dharmsinh Desai University(DDU), passionate about web and app development, with a strong interest in coding and problem-solving. I thrive on learning new technologies and turning ideas into real-world solutions that make a difference.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">2nd</span>
+                            <span class="stat-label">Year Student</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Certificates Earned</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image-container">
+                    <div class="about-image">
+                        <img src="image/profile_image.png" alt="Profile Picture">
+                    </div>
+                    <div class="social-profiles-container">
+                        
+                        <h4>Connect With Me</h4>
+                        <div class="profile-links">
+                            <a href="https://github.com/Kishan-jethloja" target="_blank" class="profile-link">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://linkedin.com/in/kishan-jethloja" target="_blank" class="profile-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="mailto:jethlojakishan0@gmail.com" class="profile-link">
+                                <i class="fas fa-envelope"></i>
+                                <span>Email</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Academic Projects</h2>
+            <div class="projects-grid">
+                <!-- Project cards will be added dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">Academic Certificates</h2>
+            <div class="certificates-grid">
+                <!-- Certificate cards will be added dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-cards">
+                <div class="skill-card">
+                    <h4>Computer Science</h4>
+                    <ul>
+                        <li>Programming</li>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Object-Oriented Programming</li>
+                        <li>Software Engineering</li>
+                        <li>Database Management</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h4>Programming Languages</h4>
+                    <ul>
+                        <li>C++</li>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h4>Frameworks & Libraries</h4>
+                    <ul>
+                        <li>Spring Boot</li>
+                        <li>Django</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h4>Tools & Technologies</h4>
+                    <ul>
+                        <li>GitHub</li>
+                        <li>Postman</li>
+                        <li>MySQL/Oracle</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            
+                <div class="contact-form-container">
+                    <h3>Send Me a Message</h3>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="Enter subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" placeholder="Enter your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kishan Jethloja - Computer Science Student</p>
+            <div class="social-links" style="display: flex; justify-content: center; align-items: center; gap: 15px;">
+                <a href="https://github.com/Kishan-jethloja" class="social-link" title="GitHub" style="font-size: 1.2rem;">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/kishan-jethloja" class="social-link" title="LinkedIn" style="font-size: 1.2rem;">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:jethlojakishan0@gmail.com" class="social-link" title="Email" style="font-size: 1.2rem;">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div class="certificate-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img src="" alt="Certificate">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        (function() {
+            emailjs.init("ZfhjIqBAhcFRqCnmD"); // Replace with your actual public key
+        })();
+    </script>
+</body>
+</html> 
