@@ -11,7 +11,7 @@ const projects = [
      {
         title: "JobSnap",
         description: "A MERN-based application that analyzes user resumes and suggests relevant job opportunities, featuring a premium option to generate ready-to-send email drafts for recruiters. It provides personalized job recommendations by matching skills, experience, and keywords with current openings.",
-        image: "image/jobSnap.png",
+        image: "image/jobsnap.png",
         githubLink: "https://github.com/Kishan-jethloja/JobSnap",
         technologies: ["React", "Node.js", "Mongodb"]
     },
