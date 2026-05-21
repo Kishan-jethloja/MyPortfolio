@@ -1,5 +1,34 @@
 // Your personal information
 const projects = [
+    
+     {
+        title: "Tender Management System",
+        description: "A blockchain application built using Solidity to ensure transparent and secure bidding through automated smart contracts without intermediaries. Provides tamper-proof, immutable records on the blockchain, ensuring fairness, trust, and complete auditability for all participants.",
+        image: "image/tendersystem.png",
+        githubLink: "https://github.com/Kishan-jethloja/Blockchain-Based-Tender-Management-System",
+        technologies: ["Blockchain", "React", "Solidity", "Smart Contracts", "Metamask"]
+    },
+     {
+        title: "JobSnap",
+        description: "A MERN-based application that analyzes user resumes and suggests relevant job opportunities, featuring a premium option to generate ready-to-send email drafts for recruiters. It provides personalized job recommendations by matching skills, experience, and keywords with current openings.",
+        image: "image/jobSnap.png",
+        githubLink: "https://github.com/Kishan-jethloja/JobSnap",
+        technologies: ["React", "Node.js", "Mongodb"]
+    },
+     {
+        title: "HireHub",
+        description: "A web-based placement management system built with ASP.NET Core to streamline interactions between students, companies, and administrators. It manages job postings, applications, and recruitment workflows with secure role-based access and efficient data handling.",
+        image: "image/hirehub.png",
+        githubLink: "https://github.com/Kishan-jethloja/HireHub",
+        technologies: ["ASP.NET Core", "MVC"]
+    },
+     {
+        title: "Credify",
+        description: " A consent-driven loan verification platform that uses DigiLocker-based document sharing to assess credit eligibility, predict approval probability, and streamline bank loan decisions.",
+        image: "image/credify.png",
+        githubLink: "https://github.com/Kishan-jethloja/Credify",
+        technologies: ["React", "Node.js", "JWT"]
+    },
     {
         title: "Splitwise",
         description: "A user-friendly website that helps people track and split shared expenses effortlessly. Ideal for managing group bills, trips, or roommate costs with real-time balance updates and simple settlements.",
@@ -26,22 +55,69 @@ const projects = [
 const certificates = [
     {
         title: "Database Management",
-        issuer: "Cracking the NPTEL Database Management System exam with a score of 79% and certified as part of the Top 2% Silver Elite.",
+        issuer: "Completed the NPTEL-certified Database Management Systems course with a score of 79%, achieving Top 2% Silver Elite status and developing strong knowledge of databases, SQL, ER modeling, normalization, transactions, and query optimization.",
         date: "Jul-Sep 2024",
         image: "image/dbms_cer.png"
     },
     {
-        title: "DUHACKS 4.0 -National Level Hackathon",
-        issuer: "Participated in duhacks4.0 and built an android application in just 36 hours.",
-        date: "Feb 2025",
-        image: "image/DU_HACKS.png"
+        title: "Vocal Discord",
+        issuer: "Achieved 3rd position in a debate competition conducted by Samvaad, the college’s communication club, by competing with skilled participants and delivering clear, logical arguments on engaging topics.",
+        date: "Sep 2025",
+        image: "image/vocaldiscord.png"
     },
     {
         title: "Design And Analysis of Algorithms",
         issuer: "Completed the NPTEL Design and Analysis of Algorithms course, earning certification for understanding key algorithmic concepts and techniques.",
         date: "Jan-Mar 2025",
         image: "image/daa_cer.png"
-    }
+    },
+     {
+        title: "A.Idea 2.0 - n8n Automation Competition",
+        issuer: "Developed a Telegram bot using n8n to automate doctor appointment bookings, enabling users to schedule visits easily. Focused on creating efficient automation workflows to simplify the booking process and improve user experience.",
+        date: "Sep 2025",
+        image: "image/n8n.png"
+    },
+    {
+        title: "Programming in Java",
+        issuer: "Successfully completed the NPTEL Programming in Java course with a score of 75%, earning a Silver Elite certification. Gained strong knowledge of core Java concepts, object-oriented programming, and problem-solving techniques.",
+        date: "Jan-Apr 2025",
+        image: "image/java_cer.png"
+    },
+    
+    {
+        title: "404: Clue Not Found - Solo Technical Treasure Hunt",
+        issuer: "Won 1st place in a solo technical treasure hunt by solving complex computer science–based puzzles and logical challenges. Demonstrated strong problem-solving, analytical thinking, and creativity under competitive conditions.",
+        date: "Sep 2025",
+        image: "image/404cnf.png"
+    },
+   
+    {
+        title: "CodeQuest ICPC: DDU Edition",
+        issuer: "We participated in the CodeQuest ICPC: DDU Edition, where we solved challenging coding problems under time constraints. The contest helped us improve our problem-solving skills, logical thinking, and competitive programming abilities.",
+        date: "Sep 2025",
+        image: "image/codequest.png"
+    },
+    {
+        title: "DUHACKS 5.0 -National Level Hackathon",
+        issuer: "Participated in DU Hacks 5.0, where I built Credify, a consent-driven loan verification platform using DigiLocker for secure document sharing, as part of a team of 3 members. Focused on assessing credit eligibility, predicting approval probability, and streamlining the bank loan decision process.",
+        date: "Feb 2025",
+        image: "image/duhacks5.png"
+    },
+   
+    {
+        title: "Sparkathon",
+        issuer: "Participated in Sparkathon, where we built a skill-swapping platform as a team of 3 to enable users to exchange skills and learn from each other. Focused on creating a collaborative system that promotes continuous learning and knowledge sharing.",
+        date: "Jun 2025",
+        image: "image/sparkathon.png"
+    },
+     {
+        title: "DUHACKS 4.0 -National Level Hackathon",
+        issuer: "Participated in duhacks4.0 and built an android application in just 36 hours.",
+        date: "Feb 2025",
+        image: "image/DU_HACKS.png"
+    },
+   
+    
 ];
 
 // DOM Elements

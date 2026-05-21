@@ -6,6 +6,7 @@
     <title>Kishan Jethloja - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -41,9 +42,17 @@
                     <a href="resume.pdf" class="btn primary-btn" download>
                         <i class="fas fa-file-download"></i> Resume
                     </a>
-                    <a href="#contact" class="btn secondary-btn">
-                        <i class="fas fa-paper-plane"></i> Contact Me
-                    </a>
+                    <div class="hero-social-links" aria-label="Social links">
+                        <a href="https://github.com/Kishan-jethloja" target="_blank" rel="noopener noreferrer" class="hero-social-link" title="GitHub" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/kishan-jethloja" target="_blank" rel="noopener noreferrer" class="hero-social-link" title="LinkedIn" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:jethlojakishan0@gmail.com" class="hero-social-link" title="Email" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="hero-image">
@@ -52,8 +61,8 @@
 function welcome() {
     console.log("Welcome to my portfolio!");
     return {
-        skills: ["C++", "Python", "Java", "JavaScript"],
-        interests: ["App Development", "Data Structures", Web Development"]
+        skills: ["React", "C++", "Python", "Java"],
+        interests: ["Web Development", "Data Structures", "Problem Solving"]
     };
 }
                     </code></pre>
@@ -77,20 +86,15 @@ function welcome() {
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>Hi, I'm Kishan Jethloja</h3>
-                    <p>I'm a second-year Computer Science student at Dharmsinh Desai University(DDU), passionate about web and app development, with a strong interest in coding and problem-solving. I thrive on learning new technologies and turning ideas into real-world solutions that make a difference.</p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <span class="stat-number">2nd</span>
-                            <span class="stat-label">Year Student</span>
+                    <p> I’m a final-year Computer Science student at Dharmsinh Desai University, driven by a strong passion for web development and problem-solving. I enjoy building practical, user-focused applications that turn ideas into real-world solutions. With a continuous learning mindset, I actively explore new technologies and apply them to create impactful and scalable projects. My aim is to grow into a proficient full-stack developer and build software that delivers meaningful, real-world impact.</p>
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
                         </div>
-                        <div class="stat">
-                            <span class="stat-number">4+</span>
-                            <span class="stat-label">Projects Completed</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">5+</span>
-                            <span class="stat-label">Certificates Earned</span>
+                        <div class="education-content">
+                            <h3>B.Tech. in Computer Engineering</h3>
+                            <p>Dharmsinh Desai University - Nadiad</p>
+                            <span>CPI: 8.34/10 | 2023 — 2027</span>
                         </div>
                     </div>
                 </div>
@@ -99,21 +103,13 @@ function welcome() {
                         <img src="image/profile_image.png" alt="Profile Picture">
                     </div>
                     <div class="social-profiles-container">
-                        
-                        <h4>Connect With Me</h4>
-                        <div class="profile-links">
-                            <a href="https://github.com/Kishan-jethloja" target="_blank" class="profile-link">
-                                <i class="fab fa-github"></i>
-                                <span>GitHub</span>
+                        <h4>Coding Profiles</h4>
+                        <div class="coding-profile-links">
+                            <a href="https://leetcode.com/u/kishan_jethloja/" target="_blank" rel="noopener noreferrer" class="coding-profile-link">
+                                <i class="fas fa-code"></i>
+                                <span>LeetCode: Rank 124,062 | Contest Rating: 1704 (Top 13%)</span>
                             </a>
-                            <a href="https://linkedin.com/in/kishan-jethloja" target="_blank" class="profile-link">
-                                <i class="fab fa-linkedin"></i>
-                                <span>LinkedIn</span>
-                            </a>
-                            <a href="mailto:jethlojakishan0@gmail.com" class="profile-link">
-                                <i class="fas fa-envelope"></i>
-                                <span>Email</span>
-                            </a>
+                            
                         </div>
                     </div>
                 </div>
@@ -149,37 +145,38 @@ function welcome() {
                 <div class="skill-card">
                     <h4>Computer Science</h4>
                     <ul>
-                        <li>Programming</li>
-                        <li>Data Structures and Algorithms</li>
-                        <li>Object-Oriented Programming</li>
-                        <li>Software Engineering</li>
-                        <li>Database Management</li>
+                        <li><i class="fas fa-sitemap"></i><span>Data Structures & Algorithms (Problem Solving)</span></li>
+                        <li><i class="fas fa-cubes"></i><span>Object-Oriented Programming (OOP)</span></li>
+                        <li><i class="fas fa-database"></i><span>Database Management Systems (DBMS)</span></li>
+                        <li><i class="fas fa-desktop"></i><span>Operating Systems (Basics)</span></li>
+                        <li><i class="fas fa-network-wired"></i><span>Computer Networks (Basics)</span></li>
                     </ul>
                 </div>
                 <div class="skill-card">
                     <h4>Programming Languages</h4>
                     <ul>
-                        <li>C++</li>
-                        <li>C</li>
-                        <li>Python</li>
-                        <li>Java</li>
-                        <li>JavaScript</li>
-                        <li>PHP</li>
+                        <li><i class="devicon-cplusplus-plain colored"></i><span>C++ (Strong)</span></li>
+                        <li><i class="devicon-python-plain colored"></i><span>Python (AI/ML & Backend)</span></li>
+                        <li><i class="devicon-java-plain colored"></i><span>Java</span></li>
+                        <li><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></li>
+                        <li><i class="devicon-c-plain colored"></i><span>C</span></li>
+                        <li><i class="devicon-php-plain colored"></i><span>PHP</span></li>
                     </ul>
                 </div>
                 <div class="skill-card">
                     <h4>Frameworks & Libraries</h4>
                     <ul>
-                        <li>Spring Boot</li>
-                        <li>Django</li>
+                        <li><i class="devicon-django-plain colored"></i><span>Django (Backend Development)</span></li>
+                        <li><i class="devicon-spring-plain colored"></i><span>Spring Boot (REST APIs)</span></li>
+                        <li><i class="devicon-firebase-plain colored"></i><span>Firebase (Auth, Firestore, Storage)</span></li>
                     </ul>
                 </div>
                 <div class="skill-card">
                     <h4>Tools & Technologies</h4>
                     <ul>
-                        <li>GitHub</li>
-                        <li>Postman</li>
-                        <li>MySQL/Oracle</li>
+                        <li><i class="devicon-github-original colored"></i><span>GitHub</span></li>
+                        <li><i class="devicon-postman-plain colored"></i><span>Postman</span></li>
+                        <li><i class="devicon-mysql-original colored"></i><span>MySQL/Oracle</span></li>
                     </ul>
                 </div>
             </div>
@@ -221,7 +218,7 @@ function welcome() {
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Kishan Jethloja - Computer Science Student</p>
+            <p>&copy; 2026 Kishan Jethloja - Computer Science Student</p>
             <div class="social-links" style="display: flex; justify-content: center; align-items: center; gap: 15px;">
                 <a href="https://github.com/Kishan-jethloja" class="social-link" title="GitHub" style="font-size: 1.2rem;">
                     <i class="fab fa-github"></i>
